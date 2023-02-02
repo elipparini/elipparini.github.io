@@ -3,8 +3,6 @@ layout: page
 title: ""
 ---
 
-I'm an assistant professor in the [Linguistics Department](https://www.ling.upenn.edu) at the University of Pennsylvania and the director of the [Child Language Lab](http://childlanglab.com/). 
+My name is Enrico Lipparini. I am a PhD Candidate in Computer Science from the University of Genoa.
 
-I teach graduate seminars in [psycholinguistics](/ling607) and [neurolinguistics](/neurolinguistics) and an undergraduate course in [language and the brain](/ling104). Occasionally, I also teach [LING 1](/ling001), Penn's Introduction to Linguistics.
-
-This semester I'm teaching a new undergraduate course (with Colin Twomey): [Data Science for Studying Language and the Mind](/ling172).
+My main interest is Satisfiability Modulo Theories (SMT) of non-linear real arithmetic augmented with transcendental functions (NTA). In particular, my research focuses on combining the typical SMT symbolic approach with techniques from numerical methods and fixed-point theorems, in order to obtain a working framework that is both exact and effective.
