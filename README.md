@@ -1,2 +1,2 @@
-# kschuler.github.io
-My personal website
+# elipparini.github.io
+Enrico Lipparini personal website
