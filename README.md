@@ -1,2 +1,2 @@
 # elipparini.github.io
-Enrico Lipparini personal website
+Enrico Lipparini's personal website
