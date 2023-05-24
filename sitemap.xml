@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  created with sitemap generator https://octopus.do  -->
+
+    <url>
+        <loc>https://elipparini.github.io</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://elipparini.github.io/publications</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://elipparini.github.io/talks</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://elipparini.github.io/handling_polynomial_and_transcendental_functions_in_smt_via_unconstrained_optimisation_and_topological_degree_test.pdf</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://elipparini.github.io/slides_handling_polynomial_and_transcendental_functions_in_smt_via_unconstrained_optimisation_and_topological_degree_test.pdf</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://elipparini.github.io/master_thesis_enrico_lipparini.pdf</loc>
+        <lastmod>2023-05-24</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
