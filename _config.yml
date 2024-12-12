@@ -1,7 +1,7 @@
 
-title: "Enrico Lipparini"
+title: ""
 author: "Enrico Lipparini"
-description: "University of Genoa"
+description: "University of Cagliari"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,15 +16,12 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md"}
-#  - {url: "/katie.pdf", title: CV}
-#  - {url: "http://childlanglab.com", title: Lsb}
-  - {file: "publications.md"}
-  - {file: "talks.md"}
+  - #{file: "index.md"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:enrico.lipparini@edu.unige.it"}
+  - {title: Mail, icon: envelope, url: "mailto:name.surname@unica.it"}
+  - {title: Scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=pWJ4MuYAAAAJ"}
   - {title: Github, icon: github, url: "https://github.com/elipparini"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/elipparini/"}
 
