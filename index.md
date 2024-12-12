@@ -4,7 +4,6 @@ title: "Enrico Lipparini"
 ---
 {% seo %}
 
-# About me
 I am a Postdoctoral Researcher in Computer Science at the University of Cagliari working in [Massimo Bartoletti's group](https://blockchain.unica.it/). I received my PhD from the University of Genoa in 2024, under the supervision of [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/) and [Alessandro Armando](https://rubrica.unige.it/personale/VUZDXlxu). I graduated in Mathematics from the University of Milan in 2020, under the supervision of [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/).
 
 Main interests:
