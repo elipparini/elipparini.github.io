@@ -14,6 +14,8 @@ Main interests:
 
 ## Publications
 
+* "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem", *Enrico Lipparini and Stefan Ratschan, in [Journal of Automated Reasoning](https://link.springer.com/article/10.1007/s10817-024-09716-3), 2024*
+
 * "Solvent: Liquidity Verification of Smart Contracts", *Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini and Vadim Malvone, in [iFM24](https://ifm2024.cs.manchester.ac.uk/)* \[[pdf](https://arxiv.org/pdf/2404.17864)]
 
 * "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem", *Enrico Lipparini and Stefan Ratschan, in [NFM23](https://conf.researchr.org/home/nfm-2023) \[[pdf](https://arxiv.org/pdf/2303.16582)]*
@@ -33,8 +35,16 @@ Main interests:
 ## Academic Service 
 * PC member of [FMBC25](https://fmbc.gitlab.io/2025/)
 * PC member of [IWBOSE25](https://www.agile-group.org/iwbose2025/)
-* (Sub-)Reviewer for: [FC25](https://fc25.ifca.ai/), [FMCAD24](https://fmcad.org/FMCAD24/), [SMT24](https://smt-workshop.cs.uiowa.edu/2024/), 
-[CAV22](https://i-cav.org/2022/), [IJCAR22](https://easychair.org/smart-program/FLoC2022/IJCAR-index.html), [SEFM22](https://sefm-conference.github.io/2022/), [TACAS21](https://etaps.org/2021/tacas.html)
+* (sub-)Reviewer for: 
+[Acta Informatica](https://link.springer.com/journal/236),
+[CAAW25](https://caaw.io/2025/),
+[FC25](https://fc25.ifca.ai/), 
+[FMCAD24](https://fmcad.org/FMCAD24/), 
+[SMT24](https://smt-workshop.cs.uiowa.edu/2024/), 
+[CAV22](https://i-cav.org/2022/), 
+[IJCAR22](https://easychair.org/smart-program/FLoC2022/IJCAR-index.html), 
+[SEFM22](https://sefm-conference.github.io/2022/), 
+[TACAS21](https://etaps.org/2021/tacas.html)
 
 ## Talks
 
