@@ -42,6 +42,7 @@ Main interests:
 * PC member of [IWBOSE'25](https://www.agile-group.org/iwbose2025/)
 * External Reviewer / sub-Reviewer for: 
 [Acta Informatica](https://link.springer.com/journal/236),
+[COORDINATION'25](https://www.discotec.org/2025/coordination),
 [CAAW'25](https://caaw.io/2025/),
 [FC'25](https://fc25.ifca.ai/), 
 [FMCAD'24](https://fmcad.org/FMCAD24/), 
