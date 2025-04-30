@@ -14,9 +14,9 @@ Main interests:
 
 ## Publications
 
-* "Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search", *Enrico Lipparini, Thomas Hader, Ahmed Irfan, Stéphane Graham-Lengrand, (preprint), 2025* [[pdf](https://arxiv.org/abs/2503.01627)]
+* "Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search", *Enrico Lipparini, Thomas Hader, Ahmed Irfan, Stéphane Graham-Lengrand, accepted at [CADE'25](https://www.dhbw-stuttgart.de/cade-30/)* [[pdf](https://arxiv.org/abs/2503.01627)]
 
-* "Formal verification in Solidity and Move: insights from a comparative analysis", *Massimo Bartoletti, Silvia Crafa, Enrico Lipparini, in [FMBC'25](https://fmbc.gitlab.io/2025/)* [[pdf](https://arxiv.org/abs/2502.13929)]
+* "Formal verification in Solidity and Move: insights from a comparative analysis", *Massimo Bartoletti, Silvia Crafa, Enrico Lipparini, accepted at [FMBC'25](https://fmbc.gitlab.io/2025/)* [[pdf](https://arxiv.org/abs/2502.13929)]
 
 * "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem", *Enrico Lipparini, Stefan Ratschan, in [Journal of Automated Reasoning](https://link.springer.com/article/10.1007/s10817-024-09716-3), 2024*
 
