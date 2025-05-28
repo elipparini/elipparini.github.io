@@ -4,7 +4,10 @@ title: "Enrico Lipparini"
 ---
 {% seo %}
 
-I am a Postdoctoral Researcher in Computer Science at the University of Cagliari working in [Massimo Bartoletti's group](https://blockchain.unica.it/). I received my PhD from the University of Genoa in 2024, under the supervision of [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/) and [Alessandro Armando](https://rubrica.unige.it/personale/VUZDXlxu). I graduated in Mathematics from the University of Milan in 2020, under the supervision of [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/).
+I am a Postdoctoral Researcher in Computer Science at the [University of Cagliari](https://web.unica.it/unica/en/dip_matinfo.page) working in [Massimo Bartoletti's group](https://blockchain.unica.it/). 
+I received my PhD from the [University of Genoa](https://dibris.unige.it/en) in 2024, under the supervision of [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/) and [Alessandro Armando](https://rubrica.unige.it/personale/VUZDXlxu). 
+During my PhD, I've spent some time at [FBK](https://fm.fbk.eu/), at the [Czech Academy of Sciences](https://www.cs.cas.cz/en), and at [SRI International](https://www.sri.com/). 
+I graduated in Mathematics from the [University of Milan](https://matematica.unimi.it/) in 2020, under the supervision of [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/).
 
 Main interests:
 - Formal Verification
@@ -54,7 +57,7 @@ Main interests:
 
 ## Talks
 
-
+* *Formal Methods for Blockchains* - [FMBC'25](https://fmbc.gitlab.io/2025/), Hamilton, Canada, May 2025
 * *Integrated Formal Methods* - [iFM'24](https://ifm2024.cs.manchester.ac.uk/), Manchester, UK, November 2024
 * *Secure Software from First Principles Workshop* - [SWOPS'24](https://library.imtlucca.it/sites/default/files/workshop_swops_programma.pdf), Lucca, Italy, June 2024
 * *Alpine Verification Meeting* - [AVM'23](https://d3s.mff.cuni.cz/conferences/avm23/), Prague, Czech Republic, September 2023
