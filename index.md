@@ -17,11 +17,13 @@ Main interests:
 
 ## Publications
 
+* "A theory of Lending Protocols in DeFi", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2025* [[pdf](https://arxiv.org/abs/2506.15295)]
+
 * "Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search", *Enrico Lipparini, Thomas Hader, Ahmed Irfan, Stéphane Graham-Lengrand, accepted at [CADE'25](https://www.dhbw-stuttgart.de/cade-30/)* [[pdf](https://arxiv.org/abs/2503.01627)]
 
 * "Formal verification in Solidity and Move: insights from a comparative analysis", *Massimo Bartoletti, Silvia Crafa, Enrico Lipparini, in [FMBC'25](https://fmbc.gitlab.io/2025/)* [[pdf](https://arxiv.org/abs/2502.13929)]
 
-* "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem", *Enrico Lipparini, Stefan Ratschan, in [Journal of Automated Reasoning](https://link.springer.com/article/10.1007/s10817-024-09716-3), 2024*
+* "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem", *Enrico Lipparini, Stefan Ratschan, in [Journal of Automated Reasoning](https://link.springer.com/article/10.1007/s10817-024-09716-3), 2025* [[pdf](https://arxiv.org/pdf/2303.16582)]
 
 * "Solvent: Liquidity Verification of Smart Contracts", *Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone, in [iFM'24](https://ifm2024.cs.manchester.ac.uk/)* \[[pdf](https://arxiv.org/pdf/2404.17864)]
 
@@ -44,6 +46,7 @@ Main interests:
 * PC member of [FMBC'25](https://fmbc.gitlab.io/2025/)
 * PC member of [IWBOSE'25](https://www.agile-group.org/iwbose2025/)
 * External Reviewer / sub-Reviewer for: 
+[FMSD](https://link.springer.com/journal/10703),
 [Acta Informatica](https://link.springer.com/journal/236),
 [COORDINATION'25](https://www.discotec.org/2025/coordination),
 [CAAW'25](https://caaw.io/2025/),
