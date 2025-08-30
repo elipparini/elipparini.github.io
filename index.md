@@ -45,18 +45,24 @@ Main interests:
 * PC member of [ECAI'25](https://ecai2025.org/)
 * PC member of [FMBC'25](https://fmbc.gitlab.io/2025/)
 * PC member of [IWBOSE'25](https://www.agile-group.org/iwbose2025/)
-* External Reviewer / sub-Reviewer for: 
+* Reviewer for Journals:
+   * 2025: [SCP](https://www.sciencedirect.com/journal/science-of-computer-programming),
 [FMSD](https://link.springer.com/journal/10703),
-[Acta Informatica](https://link.springer.com/journal/236),
-[COORDINATION'25](https://www.discotec.org/2025/coordination),
-[CAAW'25](https://caaw.io/2025/),
-[FC'25](https://fc25.ifca.ai/), 
-[FMCAD'24](https://fmcad.org/FMCAD24/), 
-[SMT'24](https://smt-workshop.cs.uiowa.edu/2024/), 
-[CAV'22](https://i-cav.org/2022/), 
-[IJCAR'22](https://easychair.org/smart-program/FLoC2022/IJCAR-index.html), 
-[SEFM'22](https://sefm-conference.github.io/2022/), 
-[TACAS'21](https://etaps.org/2021/tacas.html)
+[Acta Informatica](https://link.springer.com/journal/236)
+* External Reviewer / sub-Reviewer for Conferences:
+   * 2025: 
+   [COORDINATION'25](https://www.discotec.org/2025/coordination),
+   [CAAW'25](https://caaw.io/2025/),
+   [FC'25](https://fc25.ifca.ai/)
+   * 2024:
+   [FMCAD'24](https://fmcad.org/FMCAD24/), 
+   [SMT'24](https://smt-workshop.cs.uiowa.edu/2024/) 
+   * 2022:
+   [CAV'22](https://i-cav.org/2022/), 
+   [IJCAR'22](https://easychair.org/smart-program/FLoC2022/IJCAR-index.html), 
+   [SEFM'22](https://sefm-conference.github.io/2022/), 
+   * 2021:
+   [TACAS'21](https://etaps.org/2021/tacas.html)
 
 ## Talks
 
