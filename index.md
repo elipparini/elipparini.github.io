@@ -11,8 +11,8 @@ I graduated in Mathematics from the [University of Milan](https://matematica.uni
 
 Main interests:
 - Formal Verification
+- Smart Contracts and Blockchain
 - Satisfiability Modulo Theory (SMT)
-- Smart Contracts
 
 
 ## Publications
