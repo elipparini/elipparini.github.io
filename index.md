@@ -17,6 +17,8 @@ Main interests:
 
 ## Publications
 
+* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, (preprint), 2025* [[pdf](https://arxiv.org/pdf/2509.19153)]
+
 * "A theory of Lending Protocols in DeFi", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2025* [[pdf](https://arxiv.org/abs/2506.15295)]
 
 * "Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search", *Enrico Lipparini, Thomas Hader, Ahmed Irfan, Stéphane Graham-Lengrand, in [CADE'25](https://www.dhbw-stuttgart.de/cade-30/)* [[pdf](https://arxiv.org/abs/2503.01627)]
