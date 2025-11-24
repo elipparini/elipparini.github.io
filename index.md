@@ -17,7 +17,7 @@ Main interests:
 
 ## Publications
 
-* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, (preprint), 2025* [[pdf](https://arxiv.org/pdf/2509.19153)]
+* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, (preprint), 2025* [[pdf](https://arxiv.org/abs/2509.19153)]
 
 * "A theory of Lending Protocols in DeFi", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2025* [[pdf](https://arxiv.org/abs/2506.15295)]
 
@@ -44,33 +44,39 @@ Main interests:
 
 
 ## Academic Service 
-* PC member of [ECAI'25](https://ecai2025.org/)
-* PC member of [FMBC'25](https://fmbc.gitlab.io/2025/)
-* PC member of [IWBOSE'25](https://www.agile-group.org/iwbose2025/)
+* PC member:
+   * 2026:
+   [SAC'26](https://www.cas-blockchain-certification.com/en/acm-sac-dapp-track),
+   [FMBC'26](https://fmbc.gitlab.io/2026/)
+   * 2025:
+   [ECAI'25](https://ecai2025.org/),
+   [FMBC'25](https://fmbc.gitlab.io/2025/),
+   [IWBOSE'25](https://www.agile-group.org/iwbose2025/)
 * Reviewer for Journals:
-   * 2025: [SCP](https://www.sciencedirect.com/journal/science-of-computer-programming),
-[FMSD](https://link.springer.com/journal/10703),
-[Acta Informatica](https://link.springer.com/journal/236)
-* External Reviewer / sub-Reviewer for Conferences:
    * 2025: 
+   [COLA](https://www.sciencedirect.com/journal/journal-of-computer-languages),
+   [SCP](https://www.sciencedirect.com/journal/science-of-computer-programming),
+   [FMSD](https://link.springer.com/journal/10703),
+   [Acta Informatica](https://link.springer.com/journal/236)
+* External Reviewer / sub-Reviewer for Conferences:
+   [FC'26](https://fc26.ifca.ai/),
    [COORDINATION'25](https://www.discotec.org/2025/coordination),
    [CAAW'25](https://caaw.io/2025/),
-   [FC'25](https://fc25.ifca.ai/)
-   * 2024:
+   [FC'25](https://fc25.ifca.ai/),
    [FMCAD'24](https://fmcad.org/FMCAD24/), 
-   [SMT'24](https://smt-workshop.cs.uiowa.edu/2024/) 
-   * 2022:
+   [SMT'24](https://smt-workshop.cs.uiowa.edu/2024/) ,
    [CAV'22](https://i-cav.org/2022/), 
    [IJCAR'22](https://easychair.org/smart-program/FLoC2022/IJCAR-index.html), 
    [SEFM'22](https://sefm-conference.github.io/2022/), 
-   * 2021:
    [TACAS'21](https://etaps.org/2021/tacas.html)
 
 ## Talks
 
+* [IMDEA (invited)](https://software.imdea.org/events/invited-talks/), Madrid, Spain, November 2025
 * [CADE'25](https://www.dhbw-stuttgart.de/cade-30/), Stuttgart, Germany, July 2025
 * [SERICS Spoke 6](https://serics.eu/spoke-6-second-software-and-platform-security-workshop/), Venice, Italy, June 2025
 * [FMBC'25](https://fmbc.gitlab.io/2025/), Hamilton, Canada, May 2025
+* [Alophis Seminars](https://sites.google.com/view/alophis/home), Cagliari, Italy, March 2025
 * [iFM'24](https://ifm2024.cs.manchester.ac.uk/), Manchester, UK, November 2024
 * [SWOPS'24](https://library.imtlucca.it/sites/default/files/workshop_swops_programma.pdf), Lucca, Italy, June 2024
 * [AVM'23](https://d3s.mff.cuni.cz/conferences/avm23/), Prague, Czech Republic, September 2023
