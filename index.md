@@ -17,7 +17,7 @@ Main interests:
 
 ## Publications
 
-* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, (preprint), 2025* [[pdf](https://arxiv.org/abs/2509.19153)]
+* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, in [FC'26](https://fc26.ifca.ai/) (accepted)* [[pdf](https://arxiv.org/abs/2509.19153)]
 
 * "A theory of Lending Protocols in DeFi", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2025* [[pdf](https://arxiv.org/abs/2506.15295)]
 
@@ -47,7 +47,8 @@ Main interests:
 * PC member:
    * 2026:
    [SAC'26](https://www.cas-blockchain-certification.com/en/acm-sac-dapp-track),
-   [FMBC'26](https://fmbc.gitlab.io/2026/)
+   [FMBC'26](https://fmbc.gitlab.io/2026/),
+   [CAAW'26](https://caaw.io/2026/)
    * 2025:
    [ECAI'25](https://ecai2025.org/),
    [FMBC'25](https://fmbc.gitlab.io/2025/),
