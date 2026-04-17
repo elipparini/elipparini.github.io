@@ -17,7 +17,9 @@ Main interests:
 
 ## Publications
 
-* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, in [FC'26](https://fc26.ifca.ai/) (accepted)* [[pdf](https://arxiv.org/abs/2509.19153)]
+* "KindHML: formal verification of smart contracts based on Hennessy-Milner logic", *Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone, (preprint), 2026* [[pdf](https://arxiv.org/abs/2604.14038)]
+
+* "LLMs as verification oracles for Solidity", *Massimo Bartoletti, Enrico Lipparini, Livio Pompianu, in [FC'26](https://fc26.ifca.ai/)* [[pdf](https://arxiv.org/abs/2509.19153)]
 
 * "A theory of Lending Protocols in DeFi", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2025* [[pdf](https://arxiv.org/abs/2506.15295)]
 
@@ -73,6 +75,8 @@ Main interests:
 
 ## Talks
 
+* [VERIFAI-2026](https://www.laser-foundation.org/verifai-26/), Villebrumier, France, March 2026
+* [FC'26](https://fc26.ifca.ai/), Saint Kitts and Nevis, March 2026
 * [IMDEA (invited)](https://software.imdea.org/events/invited-talks/), Madrid, Spain, November 2025
 * [CADE'25](https://www.dhbw-stuttgart.de/cade-30/), Stuttgart, Germany, July 2025
 * [SERICS Spoke 6](https://serics.eu/spoke-6-second-software-and-platform-security-workshop/), Venice, Italy, June 2025
