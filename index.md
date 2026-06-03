@@ -6,7 +6,7 @@ title: "Enrico Lipparini"
 
 I am a Postdoctoral Researcher in Computer Science at the [University of Cagliari](https://web.unica.it/unica/en/dip_matinfo.page) working in [Massimo Bartoletti's group](https://blockchain.unica.it/). 
 I received my PhD from the [University of Genoa](https://dibris.unige.it/en) in 2024, under the supervision of [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/) and [Alessandro Armando](https://rubrica.unige.it/personale/VUZDXlxu). 
-During my PhD, I've spent some time at [FBK](https://fm.fbk.eu/), at the [Czech Academy of Sciences](https://www.cs.cas.cz/en), and at [SRI International](https://www.sri.com/). 
+During my PhD, I've spent some time at [FBK](https://fm.fbk.eu/), at the [Czech Academy of Sciences](https://www.cs.cas.cz/en), and at [SRI International](https://www.sri.com/); later, I visited [IMDEA Software](https://software.imdea.org/). 
 I graduated in Mathematics from the [University of Milan](https://matematica.unimi.it/) in 2020, under the supervision of [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/).
 
 Main interests:
@@ -16,6 +16,10 @@ Main interests:
 
 
 ## Publications
+
+* "Neuroforger: certified violation witnesses for smart contracts verification via LLMs", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2026* [[pdf](https://arxiv.org/abs/2605.31389)]
+
+* "MCSAT Modulo Transcendental Arithmetics", *Jorge Gallego-Hernández, Enrico Lipparini, Alessio Mansutti, (preprint), 2026* [[pdf](https://arxiv.org/abs/2606.00697)]
 
 * "KindHML: formal verification of smart contracts based on Hennessy-Milner logic", *Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone, (preprint), 2026* [[pdf](https://arxiv.org/abs/2604.14038)]
 
@@ -48,6 +52,7 @@ Main interests:
 ## Academic Service 
 * PC member:
    * 2026:
+   [DAPPS'26](https://cisose.fit.ac.jp/dapps/)
    [SAC'26](https://www.cas-blockchain-certification.com/en/acm-sac-dapp-track),
    [FMBC'26](https://fmbc.gitlab.io/2026/),
    [CAAW'26](https://caaw.io/2026/)
@@ -58,7 +63,7 @@ Main interests:
 * Reviewer for Journals:
    * 2025: 
    [COLA](https://www.sciencedirect.com/journal/journal-of-computer-languages),
-   [SCP](https://www.sciencedirect.com/journal/science-of-computer-programming),
+   [SCICO](https://www.sciencedirect.com/journal/science-of-computer-programming),
    [FMSD](https://link.springer.com/journal/10703),
    [Acta Informatica](https://link.springer.com/journal/236)
 * External Reviewer / sub-Reviewer for Conferences:
@@ -77,6 +82,7 @@ Main interests:
 
 * [VERIFAI-2026](https://www.laser-foundation.org/verifai-26/), Villebrumier, France, March 2026
 * [FC'26](https://fc26.ifca.ai/), Saint Kitts and Nevis, March 2026
+* [ITASEC'26](https://itasec.it/), Cagliari, Italy, February 2026
 * [IMDEA (invited)](https://software.imdea.org/events/invited-talks/), Madrid, Spain, November 2025
 * [CADE'25](https://www.dhbw-stuttgart.de/cade-30/), Stuttgart, Germany, July 2025
 * [SERICS Spoke 6](https://serics.eu/spoke-6-second-software-and-platform-security-workshop/), Venice, Italy, June 2025
