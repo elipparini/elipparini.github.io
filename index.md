@@ -52,7 +52,7 @@ Main interests:
 ## Academic Service 
 * PC member:
    * 2026:
-   [DAPPS'26](https://cisose.fit.ac.jp/dapps/)
+   [DAPPS'26](https://cisose.fit.ac.jp/dapps/),
    [SAC'26](https://www.cas-blockchain-certification.com/en/acm-sac-dapp-track),
    [FMBC'26](https://fmbc.gitlab.io/2026/),
    [CAAW'26](https://caaw.io/2026/)
