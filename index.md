@@ -19,7 +19,7 @@ Main interests:
 
 * "Neuroforger: certified violation witnesses for smart contracts verification via LLMs", *Massimo Bartoletti, Enrico Lipparini, (preprint), 2026* [[pdf](https://arxiv.org/abs/2605.31389)]
 
-* "MCSAT Modulo Transcendental Arithmetics", *Jorge Gallego-Hernández, Enrico Lipparini, Alessio Mansutti, (preprint), 2026* [[pdf](https://arxiv.org/abs/2606.00697)]
+* "MCSAT Modulo Transcendental Arithmetics", *Jorge Gallego-Hernández, Enrico Lipparini, Alessio Mansutti, in [FMCAD'26](https://fmcad.org/FMCAD26/)* [[pdf](https://arxiv.org/abs/2606.00697)]
 
 * "KindHML: formal verification of smart contracts based on Hennessy-Milner logic", *Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone, (preprint), 2026* [[pdf](https://arxiv.org/abs/2604.14038)]
 
