@@ -4,8 +4,7 @@ layout: default
 
 <div class="intro" markdown="1">
 
-I am a researcher in computer science at the [University of Cagliari](https://web.unica.it/unica/en/dip_matinfo.page). My research interests include formal verification, SMT solving, blockchain and smart contract security, DeFi, neuro-symbolic AI, and automated reasoning. I contribute to several open-source projects.
-
+I am a researcher in computer science at the [University of Cagliari](https://web.unica.it/unica/en/dip_matinfo.page). My research interests<br> include formal verification, SMT solving, blockchain and smart contract security, DeFi,<br> neuro-symbolic AI, and automated reasoning.
 
 </div>
 

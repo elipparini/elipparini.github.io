@@ -286,6 +286,8 @@ main ul:not([class]) li + li { margin-top: 0.4rem; }
 
 @media (max-width: 52rem) {
   .cols, .cols.even { grid-template-columns: minmax(0, 1fr); }
+  /* The forced line breaks of the intro only fit on wide screens. */
+  .intro br { display: none; }
   .page-title + .cols .col + .col > h2:first-child { margin-top: 3rem; }
 }
 

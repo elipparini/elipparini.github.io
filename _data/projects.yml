@@ -7,16 +7,15 @@
     - name: YicesTRA
       venue: FMCAD'26
       summary: >-
-        An extension of the Yices2 SMT solver to transcendental functions, such as sine and
-        exponential. On such problems it outperforms all other SMT solvers.
+        An extension of the Yices2 SMT solver for transcendental functions. On such problems it outperforms all other SMT solvers.
       links:
         - {name: paper, url: "https://arxiv.org/abs/2606.00697"}
         - {name: tool, url: "https://arith-lab.github.io/yices-tra/"}
 
-    - name: Yices2 (local search module)
+    - name: Yices2
       venue: CADE'25
       summary: >-
-        A local search module of Yices2 for nonlinear integer arithmetic. With it, Yices2 won this
+        I implemented the local search module for nonlinear integer arithmetic. With it, Yices2 won the
         division of [SMT-COMP](https://smt-comp.github.io/) (model validation track) in 2025 and 2026.
       links:
         - {name: paper, url: "https://arxiv.org/abs/2503.01627"}
@@ -25,8 +24,7 @@
     - name: Neuroforger
       venue: VERIFAI'26
       summary: >-
-        A tool that uses LLMs to find violations of formal specifications in smart contracts,
-        and certifies each violation by type checking and concrete execution.
+        Neurosymbolic tool to find (certified) violations of formal specifications in Solidity smart contracts.
       links:
         - {name: paper, url: "https://arxiv.org/abs/2605.31389"}
         - {name: code, url: "https://github.com/elipparini/Neuroforger"}

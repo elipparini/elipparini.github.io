@@ -12,13 +12,13 @@ positions:
     what: Visiting researcher
     where: IMDEA Software Institute, Madrid
     url: "https://software.imdea.org/"
-    note: "Transcendental functions in the Yices2 SMT solver."
+    note: "Transcendental functions in the Yices2 SMT solver. Hosted by [Alessio Mansutti](https://alessiomansutti.github.io/)."
 
   - when: "2024"
     what: Visiting researcher
     where: SRI International, Menlo Park
     url: "https://www.sri.com/"
-    note: "Local search for nonlinear integer arithmetic in Yices2."
+    note: "Local search in Yices2. Hosted by [Ahmed Irfan](https://ahmed-irfan.github.io/) and [Stéphane Graham-Lengrand](https://www.linkedin.com/in/st%C3%A9phane-graham-lengrand-7b611299)."
 
   - when: "2020 – 2024"
     what: PhD candidate
@@ -30,7 +30,7 @@ positions:
     what: Visiting researcher
     where: Czech Academy of Sciences, Prague
     url: "https://www.cs.cas.cz/en"
-    note: "Certificates for nonlinear problems with transcendental functions."
+    note: "Certificates for nonlinear problems with transcendental functions. Hosted by [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/)."
 
   - when: "2020"
     what: Backend developer
@@ -51,6 +51,6 @@ education:
     what: MSc in Mathematics
     where: University of Milan
     url: "https://matematica.unimi.it/"
-    note: "Supervisor: [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/)."
+    note: "Supervisor: [Silvio Ghilardi](http://users.mat.unimi.it/users/ghilardi/)."
     links:
       - {name: thesis, url: "/docs/Master_Thesis_Enrico_Lipparini.pdf"}
