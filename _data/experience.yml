@@ -1,0 +1,56 @@
+# Experience and education on the home page (newest first).
+# Each entry: when, what, where, url (optional), note (optional, Markdown), links (optional).
+
+positions:
+  - when: "2024 – now"
+    what: Postdoctoral researcher
+    where: University of Cagliari
+    url: "https://web.unica.it/unica/en/dip_matinfo.page"
+    note: "Smart contract security, in [Massimo Bartoletti's group](https://blockchain.unica.it/)."
+
+  - when: "2025"
+    what: Visiting researcher
+    where: IMDEA Software Institute, Madrid
+    url: "https://software.imdea.org/"
+    note: "Transcendental functions in the Yices2 SMT solver."
+
+  - when: "2024"
+    what: Visiting researcher
+    where: SRI International, Menlo Park
+    url: "https://www.sri.com/"
+    note: "Local search for nonlinear integer arithmetic in Yices2."
+
+  - when: "2020 – 2024"
+    what: PhD candidate
+    where: University of Genoa
+    url: "https://dibris.unige.it/en"
+    note: "SMT solving for nonlinear arithmetic and transcendental functions."
+
+  - when: "2022"
+    what: Visiting researcher
+    where: Czech Academy of Sciences, Prague
+    url: "https://www.cs.cas.cz/en"
+    note: "Certificates for nonlinear problems with transcendental functions."
+
+  - when: "2020"
+    what: Backend developer
+    where: Efebia, Milan
+    url: https://efebia.com/
+    note: "Backend of a booking system and of a blockchain-based online voting system."
+
+education:
+  - when: "2024"
+    what: PhD in Security, Risk and Vulnerability
+    where: University of Genoa
+    url: "https://dibris.unige.it/en"
+    note: "Supervisors: [Stefan Ratschan](https://www.cs.cas.cz/~ratschan/) and [Alessandro Armando](https://rubrica.unige.it/personale/VUZDXlxu)."
+    links:
+      - {name: thesis, url: "/docs/PhD%20Thesis%20-%20Enrico%20Lipparini.pdf"}
+
+  - when: "2020"
+    what: MSc in Mathematics
+    where: University of Milan
+    url: "https://matematica.unimi.it/"
+    note: "Supervisor: [Silvio Ghilardi](https://homes.di.unimi.it/ghilardi/)."
+    links:
+      - {name: thesis, url: "/docs/Master_Thesis_Enrico_Lipparini.pdf"}

@@ -1,0 +1,25 @@
+{%- comment -%}
+  Publications from _data/publications.yml, grouped by year in the order of
+  the file (newest first); the year is shown in a left column. The author
+  named site.author is highlighted.
+{%- endcomment -%}
+{%- assign me = site.author -%}
+{%- assign me_html = '<span class="me">' | append: me | append: '</span>' -%}
+{%- assign groups = site.data.publications | group_by: "year" -%}
+{%- for g in groups %}
+<section class="pub-year">
+  <h2 class="year">{{ g.name }}</h2>
+  <ul class="pub-list">
+    {%- for p in g.items %}
+    <li class="pub">
+      <span class="pub-title">{{ p.title }}</span>
+      <span class="pub-authors">{{ p.authors | join: ", " | replace: me, me_html }}</span>
+      <span class="pub-meta">
+        {%- if p.venue_url %}<a class="venue" href="{{ p.venue_url }}">{{ p.venue }}</a>{% else %}<span class="venue">{{ p.venue }}</span>{% endif %}
+        {%- if p.links %}<span class="link-row">{% include links.html links=p.links %}</span>{% endif %}
+      </span>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}

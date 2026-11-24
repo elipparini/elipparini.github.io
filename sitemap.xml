@@ -1,41 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
-
-    <url>
-        <loc>https://elipparini.github.io</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://elipparini.github.io/publications</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://elipparini.github.io/talks</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://elipparini.github.io/Handling_Polynomial_and_Transcendental_Functions_in_SMT_via_Unconstrained_Optimisation_and_Topological_Degree_Test.pdf</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://elipparini.github.io/Slides_Handling_Polynomial_and_Transcendental_Functions_in_SMT_via_Unconstrained_Optimisation_and_Topological_Degree_Test.pdf</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://elipparini.github.io/Master_Thesis_Enrico_Lipparini.pdf</loc>
-        <lastmod>2023-05-24</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+{%- for item in site.navigation %}
+  <url><loc>{{ item.url | absolute_url }}</loc><lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod></url>
+{%- endfor %}
+{%- for file in site.static_files %}{% if file.extname == ".pdf" %}
+  <url><loc>{{ file.path | uri_escape | absolute_url }}</loc></url>
+{%- endif %}{% endfor %}
 </urlset>

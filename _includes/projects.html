@@ -1,0 +1,17 @@
+<div class="projects">
+{%- for group in site.data.projects %}
+<h3>{{ group.area }}</h3>
+<ul class="project-list">
+  {%- for p in group.items %}
+  <li class="project">
+    <div class="project-head">
+      <span class="project-name">{{ p.name }}</span>
+      {%- if p.venue %}<span class="tag">{{ p.venue }}</span>{% endif %}
+      <span class="link-row">{% include links.html links=p.links %}</span>
+    </div>
+    <p>{{ p.summary | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+</div>

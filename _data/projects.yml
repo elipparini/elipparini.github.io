@@ -1,0 +1,88 @@
+# Projects and tools shown on the home page, in two groups.
+# Each item: name, venue (optional, short tag), summary (one or two sentences,
+# Markdown allowed), links (list of {name, url}).
+
+- area: Tools
+  items:
+    - name: YicesTRA
+      venue: FMCAD'26
+      summary: >-
+        An extension of the Yices2 SMT solver to transcendental functions, such as sine and
+        exponential. On such problems it outperforms all other SMT solvers.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2606.00697"}
+        - {name: tool, url: "https://arith-lab.github.io/yices-tra/"}
+
+    - name: Yices2 (local search module)
+      venue: CADE'25
+      summary: >-
+        A local search module of Yices2 for nonlinear integer arithmetic. With it, Yices2 won this
+        division of [SMT-COMP](https://smt-comp.github.io/) (model validation track) in 2025 and 2026.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2503.01627"}
+        - {name: code, url: "https://github.com/SRI-CSL/yices2"}
+
+    - name: Neuroforger
+      venue: VERIFAI'26
+      summary: >-
+        A tool that uses LLMs to find violations of formal specifications in smart contracts,
+        and certifies each violation by type checking and concrete execution.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2605.31389"}
+        - {name: code, url: "https://github.com/elipparini/Neuroforger"}
+
+    - name: KindHML
+      venue: preprint
+      summary: >-
+        Formal verification tool for Solidity for strategic properties that are out of the scope of the main
+        industrial verifiers (e.g. front-running, attack-defence).
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2604.14038"}
+        - {name: code, url: "https://github.com/SmartContractsVerification/KindHML"}
+
+    - name: Solvent
+      venue: iFM'24
+      summary: >-
+        Formal verification tool for liquidity properties of smart contracts.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2404.17864"}
+        - {name: code, url: "https://github.com/AngeloFerrando/Solvent"}
+
+
+
+    - name: ugotNL
+      venue: ATVA'22, NFM'23, JAR'25
+      summary: >-
+        An SMT solver for nonlinear arithmetic with transcendental functions, which combines numerical
+        optimisation with the topological degree test and interval arithmetic. At the time of publication, it solved about four
+        times as many satisfiable problems as the best other solver.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2303.16582"}
+        - {name: thesis, url: "/docs/PhD%20Thesis%20-%20Enrico%20Lipparini.pdf"}
+
+- area: Other projects
+  items:
+    - name: LLMs as verification oracles
+      venue: FC'26
+      summary: >-
+        A comparison of LLMs with state-of-the-art formal verification tools on the largest public dataset for
+        Solidity verification.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2509.19153"}
+        - {name: dataset, url: "https://github.com/bitbart/contracts-verification-benchmark/tree/FC26"}
+
+    - name: Formal verification in Solidity and Move
+      venue: FMBC'25
+      summary: >-
+        A comparison of the Certora Prover and the Aptos Move Prover on the same dataset, and an analysis of how different language features impact verification.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2502.13929"}
+        - {name: dataset, url: "https://github.com/blockchain-unica/solidity-vs-move-verification"}
+
+    - name: A theory of lending protocols
+      venue: preprint
+      summary: >-
+        A formal model of lending protocols in DeFi, with proofs of their economic
+        properties and of attacks based on price or interest-rate manipulation.
+      links:
+        - {name: paper, url: "https://arxiv.org/abs/2506.15295"}

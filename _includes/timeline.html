@@ -1,0 +1,19 @@
+{%- comment -%}
+  Experience or education entries: role and dates on the first line, then the
+  institution, a note and links. Parameter: items, each with when, what,
+  where, url (optional), note (optional, Markdown), links (optional).
+{%- endcomment -%}
+<ul class="timeline">
+  {%- for e in include.items %}
+  <li>
+    <div class="tl-head"><span class="what">{{ e.what }}</span><span class="when">{{ e.when }}</span></div>
+    <div class="where">{% if e.url %}<a href="{{ e.url }}">{{ e.where }}</a>{% else %}{{ e.where }}{% endif %}</div>
+    {%- if e.note %}
+    <div class="note">{{ e.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
+    {%- endif %}
+    {%- if e.links %}
+    <div class="link-row">{% include links.html links=e.links %}</div>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>

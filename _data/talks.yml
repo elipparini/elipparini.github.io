@@ -1,0 +1,19 @@
+# Talks, newest first. Each entry: when, event, url (optional), place, invited (optional).
+
+- {when: "Jun 2026", event: "DLT", url: "https://convegni.unica.it/dlt2026/", place: "Pula, Italy"}
+- {when: "Mar 2026", event: "VERIFAI-2026", url: "https://www.laser-foundation.org/verifai-26/", place: "Villebrumier, France"}
+- {when: "Mar 2026", event: "FC'26", url: "https://fc26.ifca.ai/", place: "Saint Kitts and Nevis"}
+- {when: "Feb 2026", event: "ITASEC'26", url: "https://itasec.it/", place: "Cagliari, Italy"}
+- {when: "Nov 2025", event: "IMDEA Software Institute", url: "https://software.imdea.org/events/invited-talks/", place: "Madrid, Spain", invited: true}
+- {when: "Jul 2025", event: "CADE'25", url: "https://www.dhbw-stuttgart.de/cade-30/", place: "Stuttgart, Germany"}
+- {when: "Jun 2025", event: "SERICS Spoke 6 workshop", url: "https://serics.eu/spoke-6-second-software-and-platform-security-workshop/", place: "Venice, Italy"}
+- {when: "May 2025", event: "FMBC'25", url: "https://fmbc.gitlab.io/2025/", place: "Hamilton, Canada"}
+- {when: "Mar 2025", event: "Alophis Seminars", url: "https://sites.google.com/view/alophis/home", place: "Cagliari, Italy"}
+- {when: "Nov 2024", event: "iFM'24", url: "https://ifm2024.cs.manchester.ac.uk/", place: "Manchester, UK"}
+- {when: "Jun 2024", event: "SWOPS'24", url: "https://library.imtlucca.it/sites/default/files/workshop_swops_programma.pdf", place: "Lucca, Italy"}
+- {when: "Sep 2023", event: "AVM'23", url: "https://d3s.mff.cuni.cz/conferences/avm23/", place: "Prague, Czech Republic"}
+- {when: "Jul 2023", event: "SMT'23", url: "https://smt-workshop.cs.uiowa.edu/2023/", place: "Rome, Italy"}
+- {when: "May 2023", event: "NFM'23", url: "https://conf.researchr.org/home/nfm-2023", place: "Houston, USA"}
+- {when: "Oct 2022", event: "ATVA'22", url: "https://atva-conference.org/2022/", place: "Beijing, China (online)"}
+- {when: "Sep 2022", event: "AVM'22", url: "https://avm.sosy-lab.org/2022/", place: "Frauenchiemsee, Germany"}
+- {when: "Feb 2022", event: "Dagstuhl Seminar 22072", url: "https://www.dagstuhl.de/22072", place: "Germany"}

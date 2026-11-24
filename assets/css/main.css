@@ -1,0 +1,308 @@
+/* elipparini.github.io: system fonts, colours of the previous theme (contrast),
+   two columns on wide screens, one column on phones. */
+
+:root {
+  --bg: #ffffff;
+  --text: #212228;
+  --muted: #66676d;
+  --rule: rgba(144, 145, 148, 0.2);
+  --link: #68f;
+  --tag-bg: rgba(144, 145, 148, 0.12);
+  --shadow: rgba(33, 34, 40, 0.05);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --measure: 68rem;
+  --date-col: 6rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #212228;
+    --text: #ffffff;
+    --muted: #b4b5b9;
+    --rule: rgba(144, 145, 148, 0.3);
+    --tag-bg: rgba(144, 145, 148, 0.2);
+    --shadow: rgba(0, 0, 0, 0.2);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 2px; }
+
+p { margin: 0 0 1rem; }
+
+/* Header and footer */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  box-shadow: 0 0 0.6em var(--shadow);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.1rem;
+}
+
+.site-name {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: inherit;
+  text-decoration: none;
+}
+a.site-name:hover { text-decoration: none; }
+
+.site-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
+.site-nav a { color: inherit; }
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.45em;
+}
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  box-shadow: 0 0 0.6em var(--shadow) inset;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.footer-links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; }
+.footer-links a { color: inherit; }
+
+/* Main content */
+
+main.wrap { padding-top: 2.5rem; padding-bottom: 3.5rem; }
+
+.page-title {
+  margin: 0 0 1.25rem;
+  font-size: 1.6rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+main h2 {
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+main h3 {
+  margin: 1.75rem 0 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+main h2 + h3,
+main h2 + .projects > h3:first-child { margin-top: 0; }
+
+.intro { max-width: 50rem; }
+/* Lines of similar length, so that the last line is not a single word.
+   On phones the paragraph is longer: there "pretty" only avoids a short last line. */
+.intro p { text-wrap: balance; }
+.intro p:last-child { margin-bottom: 0; }
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: 1.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.lead-muted { color: var(--muted); }
+
+.more { margin-top: 1.5rem; font-size: 0.95rem; }
+
+.tag {
+  display: inline-block;
+  padding: 0 0.4em;
+  border-radius: 3px;
+  background: var(--tag-bg);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+/* Links after an item: "paper  code  ..." */
+.link-row { display: inline-flex; flex-wrap: wrap; gap: 0 0.85rem; font-size: 0.9rem; }
+
+/* Columns */
+
+.cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 0 5rem;
+  margin-top: 1rem;
+}
+.cols.even { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 3.5rem; }
+.page-title + .cols { margin-top: 0; }
+.page-title + .cols .col > h2:first-child { margin-top: 1.5rem; }
+
+/* Projects */
+
+.project-list { list-style: none; margin: 0; padding: 0; }
+.project { margin: 0 0 1.15rem; }
+.project p { margin: 0.15rem 0 0; }
+
+.project-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.6rem;
+}
+.project-name { font-weight: 600; }
+.project-head .link-row { margin-left: auto; }
+
+/* Experience and education: role and dates on one line */
+
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline li { margin: 0 0 1rem; }
+.timeline li:last-child { margin-bottom: 0; }
+.tl-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.tl-head .what { flex: 1 1 auto; }
+.tl-head .when { flex: none; padding-top: 0; }
+.timeline .link-row { display: flex; }
+
+/* Two-column rows: talks */
+
+.rows { list-style: none; margin: 0; padding: 0; }
+.rows li {
+  display: grid;
+  grid-template-columns: var(--date-col) minmax(0, 1fr);
+  gap: 0 1rem;
+  padding: 0.3rem 0;
+}
+.when {
+  padding-top: 0.12rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.what { font-weight: 600; }
+.note { display: block; color: var(--muted); font-size: 0.95rem; }
+.entry .link-row { display: flex; }
+
+/* Publications: year in a left column */
+
+.pub-year {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 0 1rem;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+main .pub-year h2.year {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.pub-list { list-style: none; margin: 0; padding: 0; }
+.pub { margin: 0 0 1.1rem; }
+.pub:last-child { margin-bottom: 0; }
+.pub > span { display: block; }
+.pub-title { font-weight: 600; line-height: 1.45; }
+.pub-authors { color: var(--muted); font-size: 0.95rem; }
+.pub-authors .me { color: var(--text); }
+.pub-meta { display: flex !important; flex-wrap: wrap; gap: 0 0.85rem; font-size: 0.9rem; }
+.pub-meta .venue { font-style: italic; }
+
+/* Service: one line per year, with a hanging indent */
+
+ul.years { list-style: none; margin: 0; padding: 0; }
+/* The indent is the year's width plus the space that follows it. */
+ul.years li { margin: 0.2rem 0; padding-left: 3.68rem; text-indent: -3.68rem; }
+ul.years strong {
+  display: inline-block;
+  width: 3.4rem;
+  text-indent: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+main ul:not([class]) { padding-left: 1.2rem; }
+main ul:not([class]) li + li { margin-top: 0.4rem; }
+
+/* One column below 52rem */
+
+@media (max-width: 52rem) {
+  .cols, .cols.even { grid-template-columns: minmax(0, 1fr); }
+  .page-title + .cols .col + .col > h2:first-child { margin-top: 3rem; }
+}
+
+/* Phones */
+
+@media (max-width: 36rem) {
+  body { font-size: 1rem; }
+  main.wrap { padding-top: 2rem; }
+  .intro p { text-wrap: pretty; }
+  .rows li { grid-template-columns: minmax(0, 1fr); padding: 0.4rem 0; }
+  .pub-year { grid-template-columns: minmax(0, 1fr); gap: 0.6rem; }
+  .project-head .link-row { margin-left: 0; }
+}
+
+@media print {
+  .site-nav, .site-footer { display: none; }
+  .site-header { box-shadow: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  a { color: inherit; }
+}

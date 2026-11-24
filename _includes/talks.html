@@ -1,0 +1,11 @@
+<ul class="rows">
+  {%- for t in site.data.talks %}
+  <li>
+    <span class="when">{{ t.when }}</span>
+    <span class="entry">
+      {% if t.url %}<a href="{{ t.url }}">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}, {{ t.place }}
+      {%- if t.invited %} <span class="tag">invited</span>{% endif %}
+    </span>
+  </li>
+  {%- endfor %}
+</ul>

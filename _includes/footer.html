@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span class="footer-links">
+      <span>Email: {{ site.email_text }}</span>
+      {%- for p in site.profiles %}
+      <a href="{{ p.url }}">{{ p.title }}</a>
+      {%- endfor %}
+    </span>
+    <span>Last updated {{ site.time | date: "%B %Y" }}</span>
+  </div>
+</footer>

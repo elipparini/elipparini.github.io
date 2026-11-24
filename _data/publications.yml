@@ -1,0 +1,94 @@
+# Publications, newest first. They are grouped by year in this order.
+# Each entry: title, authors, venue, venue_url (optional), year, links (list of {name, url}).
+
+- title: "Neuroforger: certified violation witnesses for smart contracts verification via LLMs"
+  authors: [Massimo Bartoletti, Enrico Lipparini]
+  venue: "VERIFAI'26"
+  venue_url: "https://www.laser-foundation.org/verifai-26/"
+  year: 2026
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2605.31389"}
+    - {name: code, url: "https://github.com/elipparini/Neuroforger"}
+
+- title: "MCSAT Modulo Transcendental Arithmetics"
+  authors: [Jorge Gallego-Hernández, Enrico Lipparini, Alessio Mansutti]
+  venue: "FMCAD'26"
+  venue_url: "https://fmcad.org/FMCAD26/"
+  year: 2026
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2606.00697"}
+    - {name: tool, url: "https://arith-lab.github.io/yices-tra/"}
+
+- title: "KindHML: formal verification of smart contracts based on Hennessy-Milner logic"
+  authors: [Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone]
+  venue: "Preprint"
+  year: 2026
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2604.14038"}
+    - {name: code, url: "https://github.com/SmartContractsVerification/KindHML"}
+
+- title: "LLMs as verification oracles for Solidity"
+  authors: [Massimo Bartoletti, Enrico Lipparini, Livio Pompianu]
+  venue: "FC'26"
+  venue_url: "https://fc26.ifca.ai/"
+  year: 2026
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2509.19153"}
+    - {name: dataset, url: "https://github.com/bitbart/contracts-verification-benchmark"}
+
+- title: "A theory of Lending Protocols in DeFi"
+  authors: [Massimo Bartoletti, Enrico Lipparini]
+  venue: "Preprint"
+  year: 2025
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2506.15295"}
+
+- title: "Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search"
+  authors: [Enrico Lipparini, Thomas Hader, Ahmed Irfan, Stéphane Graham-Lengrand]
+  venue: "CADE'25"
+  venue_url: "https://www.dhbw-stuttgart.de/cade-30/"
+  year: 2025
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2503.01627"}
+
+- title: "Formal verification in Solidity and Move: insights from a comparative analysis"
+  authors: [Massimo Bartoletti, Silvia Crafa, Enrico Lipparini]
+  venue: "FMBC'25"
+  venue_url: "https://fmbc.gitlab.io/2025/"
+  year: 2025
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2502.13929"}
+    - {name: code, url: "https://github.com/blockchain-unica/solidity-vs-move-verification"}
+
+- title: "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem"
+  authors: [Enrico Lipparini, Stefan Ratschan]
+  venue: "Journal of Automated Reasoning"
+  venue_url: "https://link.springer.com/article/10.1007/s10817-024-09716-3"
+  year: 2025
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2303.16582"}
+
+- title: "Solvent: Liquidity Verification of Smart Contracts"
+  authors: [Massimo Bartoletti, Angelo Ferrando, Enrico Lipparini, Vadim Malvone]
+  venue: "iFM'24"
+  venue_url: "https://ifm2024.cs.manchester.ac.uk/"
+  year: 2024
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2404.17864"}
+    - {name: code, url: "https://github.com/AngeloFerrando/Solvent"}
+
+- title: "Satisfiability of Non-Linear Transcendental Arithmetic as a Certificate Search Problem"
+  authors: [Enrico Lipparini, Stefan Ratschan]
+  venue: "NFM'23"
+  venue_url: "https://conf.researchr.org/home/nfm-2023"
+  year: 2023
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2303.16582"}
+
+- title: "Handling Polynomial and Transcendental Functions in SMT via Unconstrained Optimisation and Topological Degree Test"
+  authors: [Enrico Lipparini, Alessandro Cimatti, Alberto Griggio, Roberto Sebastiani]
+  venue: "ATVA'22"
+  venue_url: "https://atva-conference.org/2022/"
+  year: 2022
+  links:
+    - {name: pdf, url: "/docs/Handling_Polynomial_and_Transcendental_Functions_in_SMT_via_Unconstrained_Optimisation_and_Topological_Degree_Test.pdf"}

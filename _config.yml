@@ -1,34 +1,49 @@
-
-title: ""
+title: "Enrico Lipparini"
+tagline: "Researcher in formal methods, smart contracts, SMT solving"
+description: >-
+  Enrico Lipparini, researcher in formal methods: verification of smart contracts,
+  SMT solving, and the combination of LLMs with formal methods.
 author: "Enrico Lipparini"
-description: "University of Cagliari"
-permalink: /:title/
+url: "https://elipparini.github.io"
+baseurl: ""
 lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
 
-# Layout
-show_social: true         # show footer
-show_excerpts: false       # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+# Contact, shown in the footer. The address is shown as text, not as a mailto link.
+email_text: "name.surname@unica.it"
 
-# Menu
+# Links shown on the home page and in the footer, in this order.
+profiles:
+  - {title: "GitHub", url: "https://github.com/elipparini"}
+  - {title: "Google Scholar", url: "https://scholar.google.com/citations?user=pWJ4MuYAAAAJ"}
+  - {title: "dblp", url: "https://dblp.org/pid/331/6758.html"}
+  - {title: "LinkedIn", url: "https://www.linkedin.com/in/elipparini/"}
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "Home"}
+# Top menu.
+navigation:
+  - {title: "About", url: "/"}
+  - {title: "Publications", url: "/publications/"}
+  - {title: "Talks & Service", url: "/talks/"}
 
+# Used by jekyll-seo-tag for structured data (schema.org Person).
+social:
+  name: "Enrico Lipparini"
+  links:
+    - "https://github.com/elipparini"
+    - "https://scholar.google.com/citations?user=pWJ4MuYAAAAJ"
+    - "https://dblp.org/pid/331/6758.html"
+    - "https://www.linkedin.com/in/elipparini/"
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:name.surname@unica.it"}
-  - {title: Scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=pWJ4MuYAAAAJ"}
-  - {title: Github, icon: github, url: "https://github.com/elipparini"}
-  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/elipparini/"}
-
-
-remote_theme: niklasbuschmann/contrast@v2.11
+markdown: kramdown
+kramdown:
+  # Keep straight apostrophes, so that FC'26 looks the same in Markdown and in _data.
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache
